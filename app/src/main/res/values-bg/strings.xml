@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MsgShareApp</string>
+    <string name="btn_show_toast">покажете тост</string>
+    <string name="btn_move_to_next_activity">препрати към следваща страница</string>
+    <string name="btn_share_to_apps">сподели в други приложения</string>
+    <string name="btv_hobbies">покажи моите хобита</string>
+    <string name="et_enter_msg">въведи съобщение</string>
+
+    <string name="btn_was_clicked">Бутонът беше натиснат!</string>
+</resources>

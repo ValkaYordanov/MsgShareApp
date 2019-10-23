@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:padding="10dp">
+    android:padding="10dp"
+    tools:context=".activities.MainActivity">
 
 
     <Button
@@ -16,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="63dp"
-        android:text="Show Toast" />
+        android:text="@string/btn_show_toast" />
 
     <EditText
         android:id="@+id/userMessage"
@@ -26,14 +25,14 @@
         android:layout_marginTop="274dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Enter your message" />
+        android:text="@string/et_enter_msg" />
 
     <Button
         android:id="@+id/btnSendMsgToNextActivity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="Send data to next activity" />
+        android:text="@string/btn_move_to_next_activity" />
 
     <Button
         android:id="@+id/btnShareToOtherApps"
@@ -42,7 +41,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="167dp"
-        android:text="Share to other apps" />
+        android:text="@string/btn_share_to_apps" />
 
     <Button
         android:id="@+id/btnREcyclerView"
@@ -51,6 +50,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="46dp"
-        android:text="Recycle View" />
+        android:text="@string/btv_hobbies" />
 
 </RelativeLayout>
