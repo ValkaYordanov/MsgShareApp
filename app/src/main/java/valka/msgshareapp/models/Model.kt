@@ -1,4 +1,5 @@
 package valka.msgshareapp.models
+import valka.msgshareapp.R
 
 data class Hobby(var title: String)
 
@@ -8,21 +9,23 @@ class MyClass{
     }
 }
 
+
+
 object Supplier{
     val hobbies = listOf(
-        Hobby("Swiming"),
+        Hobby("Swimming"),
         Hobby("Reading"),
         Hobby("Gaming"),
         Hobby("Sleeping"),
-        Hobby("Swiming"),
+        Hobby("Swimming"),
         Hobby("Reading"),
         Hobby("Gaming"),
         Hobby("Sleeping"),
-        Hobby("Swiming"),
+        Hobby("Swimming"),
         Hobby("Reading"),
         Hobby("Gaming"),
         Hobby("Sleeping"),
-        Hobby("Swiming"),
+        Hobby("Swimming"),
         Hobby("Reading"),
         Hobby("Gaming"),
         Hobby("Sleeping"),

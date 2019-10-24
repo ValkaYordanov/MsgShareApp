@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
             intent.action=Intent.ACTION_SEND
             intent.putExtra(Intent.EXTRA_TEXT,message)
             intent.type="text/plain"
-            startActivity(Intent.createChooser(intent,"share to:"))
+            startActivity(Intent.createChooser(intent,resources.getString(R.string.share_to)))
         }
 
         btnREcyclerView.setOnClickListener {

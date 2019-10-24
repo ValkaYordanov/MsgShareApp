@@ -6,6 +6,9 @@
     <string name="btn_share_to_apps">Share to other Apps</string>
     <string name="btv_hobbies">Show my hobies</string>
     <string name="et_enter_msg">Enter a Message</string>
+    <string name="share_to">Share to:</string>
 
     <string name="btn_was_clicked">Button was clicked!</string>
+    <string name="title">Title</string>
+    <string name="textView">Text View</string>
 </resources>

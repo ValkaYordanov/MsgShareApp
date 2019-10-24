@@ -61,7 +61,7 @@ class HobbiesAdapter(val context: Context, private val hobbies: List<Hobby>) :
         fun setData(hobby: Hobby?, pos: Int) {
 
             hobby?.let {
-                itemView.txvTitle.text = hobby!!.title
+                itemView.txvTitle.text = hobby.title
 
                 this.currentHobby = hobby
                 this.currentPostion = pos

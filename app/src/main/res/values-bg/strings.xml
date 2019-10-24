@@ -8,4 +8,10 @@
     <string name="et_enter_msg">въведи съобщение</string>
 
     <string name="btn_was_clicked">Бутонът беше натиснат!</string>
+
+    <string name="share_to">Сподели със:</string>
+    <string name="textView">Текст</string>
+    <string name="title">Заглавие</string>
+
+
 </resources>
