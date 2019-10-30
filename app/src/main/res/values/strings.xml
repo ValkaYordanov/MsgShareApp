@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MsgShareApp</string>
+    <string name="app_name">Share App</string>
     <string name="btn_show_toast">Show Toast</string>
 
     <string name="btn_move_to_next_activity">Move to next Activity</string>
